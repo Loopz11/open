@@ -1,0 +1,29 @@
+ <li>make multiple of 11
+                <pre class="language-c"><code>#include &lt;stdio.h&gt;
+int main()
+{
+    int i, j, n;
+    printf("Enter number of rows: ");
+    scanf("%d", &n);
+    for (i = 1; i &lt;= n; i++)
+    {
+        for (j = 1; j &lt;= i; j++)
+        {
+            printf("* ");
+        }
+        printf("\n");
+    }
+    return 0;
+}
+/*
+OUtput:
+Enter number of rows: 5
+* 
+* *
+* * *
+* * * *
+* * * * *
+
+*/
+</code></pre>
+            </li>
