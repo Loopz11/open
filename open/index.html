@@ -1889,6 +1889,44 @@ The Sum Is 9.000000
 */
     </code></pre>
             </li>
+          <li>C Program to ask elements of 2x3 matrix and display it
+                <pre class="language-c"><code>
+#include&lt;stdio.h&gt;
+int main()
+{
+	int a[2][3], i, j;
+	for (i=0;i<2;i++)
+	{
+		for (j=0;j<3;j++)
+		{
+			printf("Enter element of A[%d][%d]",i,j);
+			scanf("%d",&a[i][j]);
+		}
+	}
+	for (i=0;i<2;i++)
+	{
+		for (j=0;j<3;j++)
+		{
+			printf("%d\t",a[i][j]);
+		}
+	printf("\n");
+	}
+
+}
+				
+/*
+Output:
+Enter element of A[0][0]1
+Enter element of A[0][1]2
+Enter element of A[0][2]3
+Enter element of A[1][0]4
+Enter element of A[1][1]5
+Enter element of A[1][2]6
+1       2       3
+4       5       6
+
+*/</code></pre>
+            </li>
         </ol>
     </div>
 </body>
